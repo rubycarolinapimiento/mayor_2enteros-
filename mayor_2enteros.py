@@ -1,21 +1,17 @@
-# Programa para veriicar cual de dos numeros enteros es el mayor 
+# input
 
-print("...........................")
-print("......MAYOR 2 ENTEROS......")
-print("...........................")
+X = int(input("ingrese un numero de X: "))
 
-# input 
-x = int(input("Digite el valr de x: "))
-y = int(input("Digite el valor de y: "))
+Y = int(input("ingrese el numero de Y: "))
 
-# procesing 
-if x == y: 
-      # ouput
-      print("Los numeros iguales...")    
+# processing
+if X == Y:
+    # output
+    print("los numeros son iguales...")
 else:
-         if x > y: 
-             mayor = x
-         else: 
-            mayor = y     
-#ouput 
-print("El mayor entre " + str(x) + " y " + str(y) + " es " + str(mayor))
+    if X > Y:
+        mayor = X
+    else:
+            mayor = Y
+    print("el mayor entre: " + str(X) + " y " + str(Y) + " es " + str(mayor))
+    
